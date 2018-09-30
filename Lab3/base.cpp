@@ -16,7 +16,7 @@ Base::~Base()
 	delete[] pBase;
 }
 
-Base::Base(const Base& bd)	// как оптимизировать?
+Base::Base(const Base& bd)	// РєР°Рє РѕРїС‚РёРјРёР·РёСЂРѕРІР°С‚СЊ?
 {
 	capacity = count = bd.count;
 	pBase = nullptr;
