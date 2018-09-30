@@ -76,7 +76,7 @@ int List::RemoveAllLike(const Circle* data)
 
 ostream& operator<<(ostream& os, List& L)
 {
-	// если добавить функцию в friend класса Node все равное не дает обратиться к pNext
+	// РµСЃР»Рё РґРѕР±Р°РІРёС‚СЊ С„СѓРЅРєС†РёСЋ РІ friend РєР»Р°СЃСЃР° Node РІСЃРµ СЂР°РІРЅРѕРµ РЅРµ РґР°РµС‚ РѕР±СЂР°С‚РёС‚СЊСЃСЏ Рє pNext
 	
 	os << L.m_size << endl;
 	Node* pTemp = L.Head.Next();
@@ -84,7 +84,7 @@ ostream& operator<<(ostream& os, List& L)
 	{
 		Circle C1;
 		pTemp->GetData(C1);
-		/*Circle C1=pTemp->m_data;*/	// в VS2017 это не работает
+		/*Circle C1=pTemp->m_data;*/	// РІ VS2017 СЌС‚Рѕ РЅРµ СЂР°Р±РѕС‚Р°РµС‚
 		os << C1;
 		pTemp = pTemp->Next();
 	}
