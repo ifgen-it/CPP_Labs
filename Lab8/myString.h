@@ -4,7 +4,7 @@ using namespace std;
 
 class MyString
 {
-    char* m_pStr;	//строка-член класса
+    char* m_pStr;	
 public:
 	MyString(const char* str);
 	MyString();
