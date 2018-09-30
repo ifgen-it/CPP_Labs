@@ -19,7 +19,7 @@ class Counter
 	//friend ostream& operator<<(ostream& os, const MyString& Str);
 	friend ostream& operator<<(ostream& os, const Counter& C);
 
-	//Counter();	//убрал за ненадобностью
+	//Counter();	//СѓР±СЂР°Р» Р·Р° РЅРµРЅР°РґРѕР±РЅРѕСЃС‚СЊСЋ
 	Counter(const char* Str);
 	~Counter();
 
