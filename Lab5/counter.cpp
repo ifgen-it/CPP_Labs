@@ -5,7 +5,7 @@
 Counter* Counter::pHead = nullptr;
 unsigned int Counter::m_curCounters;
 
-//Counter::Counter()	//убрал за ненадобностью
+//Counter::Counter()	//СѓР±СЂР°Р» Р·Р° РЅРµРЅР°РґРѕР±РЅРѕСЃС‚СЊСЋ
 /*{
 	m_nOwners = 1;
 	m_pStr = nullptr;
