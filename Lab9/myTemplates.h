@@ -26,7 +26,7 @@ template<typename A> void PrintAd(A ad)
 
 	while (ad.size())
 	{
-	//	надо так: cout << Mytop(ad) << " ";
+	//	РЅР°РґРѕ С‚Р°Рє: cout << Mytop(ad) << " ";
 		cout << ad.top() << " ";
 		ad.pop();
 	}
@@ -34,7 +34,7 @@ template<typename A> void PrintAd(A ad)
 }
 
 
-// надо убрать
+// РЅР°РґРѕ СѓР±СЂР°С‚СЊ
 template<typename T, typename C> void PrintAd(queue<T*, C> ad)
 {
 	cout << "-----------------------------------" << endl;
@@ -49,7 +49,7 @@ template<typename T, typename C> void PrintAd(queue<T*, C> ad)
 	cout << endl << "-----------------------------------" << endl;
 }
 
-// надо убрать
+// РЅР°РґРѕ СѓР±СЂР°С‚СЊ
 template<typename T, typename C> void PrintAd(queue<T, C> ad)
 {
 	cout << "-----------------------------------" << endl;
@@ -211,7 +211,7 @@ template<typename T> void PrintList(list<T>& l)
 	cout << endl;
 }
 
-// объединить с PrintList
+// РѕР±СЉРµРґРёРЅРёС‚СЊ СЃ PrintList
 template<typename T> void PrintDeque(deque<T>& d)
 {
 //	list<T>::iterator 
