@@ -1,0 +1,4 @@
+3
+Rect l= 0 r= 6 t= -5 b= 5 col= GREY
+Rect l= 2 r= 5 t= 3 b= 10 col= GREEN
+Circle x= 4 y= 5 rad= 2 col= BLACK
