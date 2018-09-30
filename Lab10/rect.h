@@ -26,7 +26,7 @@ public:
 		{
 			if (const Rect* Source = dynamic_cast<const Rect*>(&other))
 			{
-				*this = static_cast<const Rect&>(other);	// будет использоваться default operator=
+				*this = static_cast<const Rect&>(other);	// Р±СѓРґРµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ default operator=
 				/*Shape::operator=(other);
 				m_left = Source->m_left;
 				m_right = Source->m_right;
