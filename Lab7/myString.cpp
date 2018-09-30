@@ -3,7 +3,7 @@
 #include "myString.h"
 using namespace std;
 
-// Определение конструктора.
+// РћРїСЂРµРґРµР»РµРЅРёРµ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 
 MyString::MyString(const char* str)
 {
@@ -98,7 +98,7 @@ MyString ConcatString(const char* str1,...) {
 	return Result;
 }
 
-// Определение деструктора.
+// РћРїСЂРµРґРµР»РµРЅРёРµ РґРµСЃС‚СЂСѓРєС‚РѕСЂР°.
 
 MyString::~MyString()
 {
