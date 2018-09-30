@@ -18,7 +18,7 @@ class Node
 	Node(Node* p, const Shape* pOther);
 	~Node();
 
-	friend ostream& operator<<(ostream& os, List& L);		// Node íå õî÷åò äðóæèòü
+	friend ostream& operator<<(ostream& os, List& L);		// Node Ð½Ðµ Ñ…Ð¾Ñ‡ÐµÑ‚ Ð´Ñ€ÑƒÐ¶Ð¸Ñ‚ÑŒ
 	
 public:
 	Node* Next();
