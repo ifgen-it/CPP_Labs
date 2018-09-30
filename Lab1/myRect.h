@@ -2,8 +2,8 @@
 class Rect{
 	int m_left, m_right, m_top, m_bottom;
 public:
-	Rect(int left, int right, int top, int bottom);		// констр. с параметрами
-	Rect();		// конструктор по умолчанию
+	Rect(int left, int right, int top, int bottom);		// РєРѕРЅСЃС‚СЂ. СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
+	Rect();		// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 	void InflateRect(int dLeft, int dRight, int dTop, int dBottom);		// make delta coord. - inflate rect
 	void InflateRect(int dLeftRight = 1, int dTopBottom = 1);
 
