@@ -1,7 +1,7 @@
 #pragma once
 class MyString
 {
-    char* m_pStr;	//строка-член класса
+    char* m_pStr;	//СЃС‚СЂРѕРєР°-С‡Р»РµРЅ РєР»Р°СЃСЃР°
 public:
 	MyString(const char* str);
 	MyString();
